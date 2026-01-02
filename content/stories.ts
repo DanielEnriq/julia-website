@@ -19,7 +19,7 @@ const DEFAULT_IMAGE = "/images/portrait.jpg";
 export const stories: Story[] = [
   {
     id: "borough-based-jails",
-    title: "A Precarious Promise: What the Tallest Jail in the World Means for Those Who Live Next to It",
+    title: "A precarious promise: What the tallest jail in the world means for those who live next to it",
     outlet: "Washington Square News",
     role: "Culture Editor",
     date: "2025-09-17",
@@ -34,7 +34,7 @@ export const stories: Story[] = [
 
   {
     id: "transportation-accessibility",
-    title: "“A Minefield of Access Barriers”: Transportation for New Yorkers With Disabilities",
+    title: "“A minefield of access barriers”: Transportation for New Yorkers with disabilities",
     outlet: "Washington Square News",
     role: "Culture Editor",
     date: "2025-10-06",
@@ -49,7 +49,7 @@ export const stories: Story[] = [
 
   {
     id: "mamdani-campaign",
-    title: "The NYU Students Behind Mamdani’s Historic Win",
+    title: "The NYU students behind Mamdani’s historic win",
     outlet: "Washington Square News",
     role: "Culture Editor",
     date: "2025-11-19",
