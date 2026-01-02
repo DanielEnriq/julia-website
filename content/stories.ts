@@ -94,7 +94,7 @@ export const stories: Story[] = [
 
   {
     id: "prisons-post-strike",
-    title: "Understaffed or Overpopulated? Looking Inside New York’s Prisons Post-Strike",
+    title: "Understaffed or Overpopulated?: Looking Inside New York’s Prisons Post-Strike",
     outlet: "NPR Radio Catskill",
     role: "Reporter & Producer",
     date: "2025-08-26",
