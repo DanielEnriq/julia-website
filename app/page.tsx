@@ -46,7 +46,7 @@ export default function HomePage() {
           >
             Born and raised
             in Missouri, I am passionate about journalism at the intersection of
-            social justice and writing stories that center the stories of
+            social justice and writing stories that center the experiences of
             historically marginalized communities. I currently work as the
             Culture Editor for NYU’s independent student newspaper Washington
             Square News, where my reporting takes the form of long-form feature
