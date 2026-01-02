@@ -72,7 +72,7 @@ export default function HomePage() {
           }}
         >
           <Image
-            src="/images/portrait.jpg"
+            src="/images/portrait1.jpg"
             alt="Portrait of Julia Kim"
             fill
             priority
@@ -83,8 +83,7 @@ export default function HomePage() {
             style={{
               position: "absolute",
               inset: 0,
-              background:
-                "linear-gradient(to left, rgba(247, 246, 243, 0.52), rgba(247,246,243,0.2))",
+
             }}
           />
         </motion.div>
