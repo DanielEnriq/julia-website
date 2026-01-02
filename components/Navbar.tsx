@@ -23,7 +23,7 @@ export default function Navbar() {
           style={{
             fontFamily: "var(--font-serif)",
             fontSize: "1.25rem",
-            color: "var(--color-text-primary)",
+            color: "var(--color-text)",
           }}
         >
           Julia Kim
@@ -35,10 +35,21 @@ export default function Navbar() {
             display: "flex",
             gap: "var(--space-md)",
             fontSize: "0.95rem",
+            alignItems: "center",
           }}
         >
           <Link href="/#about">About</Link>
           <Link href="/#portfolio">Portfolio</Link>
+
+          {/* Resume — external PDF */}
+          <a
+            href="/Julia_Kim_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a>
+
           <Link href="/#contact">Contact</Link>
         </div>
       </nav>
