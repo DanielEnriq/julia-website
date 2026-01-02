@@ -1,0 +1,279 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* =========================
+   DESIGN TOKENS
+   ========================= */
+
+:root {
+  --color-bg: #f7f6f3;
+  --color-bg-subtle: #f1f0ec;
+
+  --color-text: #1c1c1c;
+  --color-text-muted: #6b6b6b;
+  --color-text-subtle: #4b5563;
+
+  --color-accent: #1f3a5f;
+  --color-accent-hover: #2f5d8a;
+  --color-border: rgba(0, 0, 0, 0.08);
+
+  --font-serif: Georgia, "Times New Roman", Times, serif;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 2rem;
+  --space-lg: 4rem;
+  --space-xl: 6rem;
+  --space-2xl: 8rem;
+
+  --content-max-width: 1100px;
+
+  --motion-fast: 150ms;
+  --motion-normal: 300ms;
+  --motion-slow: 600ms;
+}
+
+/* =========================
+   BASE
+   ========================= */
+
+html,
+body {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+/* =========================
+   TYPOGRAPHY
+   ========================= */
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-serif);
+  font-weight: 500;
+  line-height: 1.25;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: var(--space-md);
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: var(--space-md);
+}
+
+h3 {
+  font-size: 1.35rem;
+}
+
+p {
+  margin: 0;
+}
+
+p + p {
+  margin-top: var(--space-sm);
+}
+
+.meta {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+}
+
+/* =========================
+   LINKS
+   ========================= */
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+  transition: color var(--motion-fast) ease;
+}
+
+a:hover {
+  color: var(--color-accent-hover);
+}
+
+/* =========================
+   CONTAINER (CANONICAL)
+   ========================= */
+
+.container {
+  max-width: var(--content-max-width);
+  margin-inline: auto;
+  padding-inline: var(--space-md);
+  padding-block: var(--space-lg);
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding-block: var(--space-md);
+  }
+}
+
+/* =========================
+   STORY GRID
+   ========================= */
+
+.story-grid {
+  display: grid;
+  gap: var(--space-2xl);
+}
+
+/* =========================
+   STORY SECTION
+   ========================= */
+
+.story-section {
+  position: relative;
+  
+}
+
+.story-section-header {
+  border-top: 1px solid var(--color-border);
+  padding-top: var(--space-lg);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: var(--space-md);
+}
+
+.story-section-subtitle {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+
+
+/* =========================
+   STORY CARD (LOCKED SPACING)
+   ========================= */
+
+.story-card {
+  position: relative;
+  display: block;
+
+  padding-block: var(--space-md);
+  border-top: none;
+}
+
+.story-card + .story-card {
+  margin-top: var(--space-lg);
+}
+
+.story-card img {
+  max-height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+ /* =========================
+   VERTICAL PROGRESS RAIL (CORRECT)
+   ========================= */
+
+/* Tall wrapper spans entire section */
+.story-section-rail {
+  position: absolute;
+  top: 0;
+  left: calc(-1 * (var(--space-md) + 24px));
+  height: 100%;
+  pointer-events: none;
+  z-index: 5;
+}
+
+/* THIS is the sticky element */
+.story-section-rail-inner {
+  position: sticky;
+  top: 35vh;
+
+  /* viewport-relative visual height */
+  height: clamp(180px, 32vh, 300px);
+}
+
+/* Visual rail */
+.story-section-rail-track {
+  width: 2px;
+  height: 100%;
+  background: var(--color-border);
+  position: relative;
+  overflow: hidden;
+}
+
+.story-section-rail-fill {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--color-accent);
+  transform-origin: top;
+}
+
+/* Mobile: hide rail */
+@media (max-width: 768px) {
+  .story-section-rail {
+    display: none;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.story-section-indicator {
+  position: absolute;
+  top: 50%;
+  left: calc(-1 * (var(--space-md) + 56px));
+  transform: translateY(-50%);
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.story-section-indicator a {
+  color: var(--color-text-muted);
+  text-decoration: none;
+  transition: color 150ms ease, opacity 150ms ease;
+  opacity: 0.6;
+}
+
+.story-section-indicator a:hover {
+  opacity: 1;
+}
+
+.story-section-indicator a.active {
+  color: var(--color-accent);
+  opacity: 1;
+  font-weight: 500;
+}
+
+
+.story-section-indicator {
+  pointer-events: auto;
+}
+
+.story-section-indicator a {
+  pointer-events: auto;
+  cursor: pointer;
+}
