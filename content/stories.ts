@@ -101,7 +101,7 @@ export const stories: Story[] = [
     url: "https://wjffradio.org/understaffed-or-overpopulated-looking-inside-new-yorks-prisons-post-strike/",
     image: "/images/catskill-prisons.jpg",
     dek:
-      "Since the correctional officers’ strike, incarcerated individuals are facing frequent lockdowns, absences of programming, and the summer heat.",
+      "Since the correctional officers’ strike, incarcerated New Yorkers are struggling amidst frequent lockdowns, an absence in programming and the summer heat.",
     highlight:
       "These are the first few lines of the story, this is what it would look like if you hover over each card. For example, this is random text....",
     topics: ["incarceration", "labor", "public institutions"],
