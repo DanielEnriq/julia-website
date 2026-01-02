@@ -3,9 +3,9 @@ import "../styles/globals.css";
 import Navbar from "../components/Navbar";
 
 export const metadata: Metadata = {
-  title: "Julia Kim — Student Journalist",
+  title: "Julia Kim Portfolio",
   description:
-    "Portfolio of Julia Kim, student journalist focusing on culture, social justice, and long‑form reporting.",
+    "Julia Kim, an undergraduate student at New York University studying Journalism and Gender & Sexuality Studies.",
 };
 
 export default function RootLayout({

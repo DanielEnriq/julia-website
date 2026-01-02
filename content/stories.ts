@@ -101,7 +101,7 @@ export const stories: Story[] = [
     url: "https://wjffradio.org/understaffed-or-overpopulated-looking-inside-new-yorks-prisons-post-strike/",
     image: "/images/catskill-prisons.jpg",
     dek:
-      "After a statewide prison strike, questions remain about whether New York’s correctional system is stretched thin by staffing shortages, population levels — or both.",
+      "Since the correctional officers’ strike, incarcerated individuals are facing frequent lockdowns, absences of programming, and the summer heat.",
     highlight:
       "These are the first few lines of the story, this is what it would look like if you hover over each card. For example, this is random text....",
     topics: ["incarceration", "labor", "public institutions"],
@@ -133,7 +133,7 @@ export const stories: Story[] = [
     url: "https://wjffradio.org/the-system-is-so-fundamentally-broken-local-pharmacies-are-increasingly-having-to-cut-prescriptions-and-close-their-doors/",
     image: "/images/catskill-pharmacies.jpg",
     dek:
-      "Independent pharmacies across New York are struggling to survive as reimbursement rates shrink and operational costs rise.",
+      "Local pharmacies are closing at increasing rates across the country and cite PBMs as the culprit for significant profit losses.",
     highlight:
       "These are the first few lines of the story, this is what it would look like if you hover over each card. For example, this is random text....",
     topics: ["healthcare", "economics", "community"],

@@ -7,8 +7,12 @@ export default function ContactSection() {
         <h2>Contact</h2>
 
         <p className="contact-line">
-          <span>Email</span>
-          <a href="mailto:jkim@nyunews.com">: jkim@nyunews.com</a>
+          <span>Story Tips: </span>
+          <a href="mailto:jkim@nyunews.com">jkim@nyunews.com</a>
+        </p>
+        <p className="contact-line">
+          <span>General Inquiries: </span>
+          <a href="mailto:jkim@nyunews.com">jjk9916@nyu.edu</a>
         </p>
         
         <p className="contact-line">
@@ -22,16 +26,6 @@ export default function ContactSection() {
           </a>
         </p>
 
-        <p className="contact-line">
-          <span>Instagram</span>
-          <a
-            href="https://www.instagram.com/jjulia.kim"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            : @jjulia.kim
-          </a>
-        </p>
 
       </div>
     </section>
