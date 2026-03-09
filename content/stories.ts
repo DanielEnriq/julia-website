@@ -89,6 +89,21 @@ export const stories: Story[] = [
       "These are the first few lines of the story, this is what it would look like if you hover over each card. For example, this is random text....",
     topics: ["student activism", "politics", "organizing"],
   },
+    {
+    id: "ice-story",
+    title:
+      "From Slave Patrols to ICE: Scholars Say America’s Immigration Crackdown Has Deep Roots",
+    outlet: "NPR Radio Catskill",
+    role: "Reporter & Producer",
+    date: "2026-03-02",
+    url: "https://wjffradio.org/ice-is-a-product-of-an-american-history-of-violence/",
+    image: "/images/ICE-protest.jpg",
+    dek:
+      "The rise in ICE violence against immigrant communities calls back to American history.",
+    highlight:
+      "These are the first few lines of the story, this is what it would look like if you hover over each card. For example, this is random text....",
+    topics: ["healthcare", "economics", "community"],
+  },
   {
     id: "loved-ones-of-incarcerated-individuals",
     title:
