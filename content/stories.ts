@@ -17,6 +17,20 @@ export type Story = {
 const DEFAULT_IMAGE = "/images/portrait.jpg";
 
 export const stories: Story[] = [
+    {
+    id: "personal-essay",
+    title: "You cannot be Asian American without being against ICE",
+    outlet: "Washington Square News",
+    role: "Culture Editor",
+    date: "2026-02-11",
+    url: "https://nyunews.com/culture/iequity/2026/02/11/asian-american-identity-ice/",
+    image: "/images/culture-corky-lee.jpg",
+    dek:
+      "“Asian American” is not just a label — it’s a political commitment against the forces of racism, capitalism and imperialism.",
+    highlight:
+      "These are the first few lines of the story, this is what it would look like if you hover over each card. For example, this is random text....",
+    topics: ["criminal justice", "urban policy", "housing"],
+  },
   {
     id: "borough-based-jails",
     title: "A precarious promise: What the tallest jail in the world means for those who live next to it",
@@ -81,7 +95,7 @@ export const stories: Story[] = [
       "‘They Treat Us Like Inmates’: Loved Ones of Incarcerated Individuals Cite Uncertainty and Powerlessness Navigating the System",
     outlet: "NPR Radio Catskill",
     role: "Reporter & Producer",
-    date: "2025-08-04",
+    date: "2025-09-04",
     url: "https://wjffradio.org/they-treat-us-like-inmates-loved-ones-of-incarcerated-individuals-cite-uncertainty-and-powerlessness-navigating-the-system/",
     image: "/images/loved-ones.jpg",
     dek:

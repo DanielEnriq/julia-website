@@ -43,7 +43,7 @@ export default function Navbar() {
 
           {/* Resume — external PDF */}
           <a
-            href="/Julia_Kim_Resume.pdf"
+            href="/resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
