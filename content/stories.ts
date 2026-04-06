@@ -90,6 +90,36 @@ export const stories: Story[] = [
     topics: ["student activism", "politics", "organizing"],
   },
     {
+    id: "no-justice",
+    title:
+      "‘There’s no justice’: New York introduces bill to increase oversight on body scanners in state prisons",
+    outlet: "NPR Radio Catskill",
+    role: "Reporter & Producer",
+    date: "2026-04-06",
+    url: "https://wjffradio.org/theres-no-justice-new-york-introduces-bill-to-increase-oversight-on-body-scanners-in-state-prisons/",
+    image: "/images/no-justice-photo.jpg",
+    dek:
+      "The state bill follows hundreds of women coming out in the last year about how they’re being turned away for body scanners flagging menstrual products as contraband. ",
+    highlight:
+      "These are the first few lines of the story, this is what it would look like if you hover over each card. For example, this is random text....",
+    topics: ["healthcare", "economics", "community"],
+  },
+    {
+    id: "nonprofit-libraries",
+    title:
+      "Nonprofit Libraries No Longer Able to Process Passport Applications",
+    outlet: "NPR Radio Catskill",
+    role: "Reporter & Producer",
+    date: "2026-03-19",
+    url: "https://wjffradio.org/nonprofit-libraries-no-longer-able-to-process-passport-applications/",
+    image: "/images/library-passport-photo.jpg",
+    dek:
+      "Making up almost half of New York’s libraries, nonprofit libraries have been able to process passport applications for decades.",
+    highlight:
+      "These are the first few lines of the story, this is what it would look like if you hover over each card. For example, this is random text....",
+    topics: ["healthcare", "economics", "community"],
+  },
+  {
     id: "ice-story",
     title:
       "From Slave Patrols to ICE: Scholars Say America’s Immigration Crackdown Has Deep Roots",
