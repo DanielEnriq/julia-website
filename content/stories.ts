@@ -99,7 +99,7 @@ export const stories: Story[] = [
     url: "https://wjffradio.org/theres-no-justice-new-york-introduces-bill-to-increase-oversight-on-body-scanners-in-state-prisons/",
     image: "/images/no-justice-photo.jpg",
     dek:
-      "The state bill follows hundreds of women coming out in the last year about how they’re being turned away for body scanners flagging menstrual products as contraband. ",
+      "The state bill follows hundreds of women coming out in the last year about being turned away for body scanners flagging menstrual products as contraband.",
     highlight:
       "These are the first few lines of the story, this is what it would look like if you hover over each card. For example, this is random text....",
     topics: ["healthcare", "economics", "community"],
@@ -114,7 +114,7 @@ export const stories: Story[] = [
     url: "https://wjffradio.org/nonprofit-libraries-no-longer-able-to-process-passport-applications/",
     image: "/images/library-passport-photo.jpg",
     dek:
-      "Making up almost half of New York’s libraries, nonprofit libraries have been able to process passport applications for decades.",
+      "Making up almost half of New York’s libraries, nonprofit libraries had been able to process passport applications for decades until now.",
     highlight:
       "These are the first few lines of the story, this is what it would look like if you hover over each card. For example, this is random text....",
     topics: ["healthcare", "economics", "community"],
