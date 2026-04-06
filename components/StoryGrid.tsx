@@ -112,16 +112,16 @@ export default function StoryGrid() {
           {/* OUTLET INDICATOR */}
           <div className="story-section-indicator">
             <a
-              href="#wsn"
-              className={activeOutlet === "wsn" ? "active" : ""}
-            >
-              WSN
-            </a>
-            <a
               href="#npr"
               className={activeOutlet === "npr" ? "active" : ""}
             >
               NPR
+            </a>
+            <a
+              href="#wsn"
+              className={activeOutlet === "wsn" ? "active" : ""}
+            >
+              WSN
             </a>
           </div>
 
@@ -137,17 +137,17 @@ export default function StoryGrid() {
 
       {/* CONTENT */}
       <StorySection
-        id="wsn"
-        title="Washington Square News"
-        subtitle="Culture Editor"
-        stories={grouped.wsn}
-      />
-
-      <StorySection
         id="npr"
         title="NPR Radio Catskill"
         subtitle="Reporter & Producer"
         stories={grouped.npr}
+      />
+
+        <StorySection
+        id="wsn"
+        title="Washington Square News"
+        subtitle="Culture Editor"
+        stories={grouped.wsn}
       />
     </div>
   );
