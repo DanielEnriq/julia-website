@@ -18,6 +18,20 @@ const DEFAULT_IMAGE = "/images/portrait.jpg";
 
 export const stories: Story[] = [
     {
+      id: "afinity-grad",
+      title: "The fight for affinity graduations",
+      outlet: "Washington Square News",
+      role: "Culture Editor",
+      date: "2026-04-30",
+      url: "https://nyunews.com/underthearch/graduation/2026/04/30/affinity-graduation/",
+      image: "/images/affinity.jpeg",
+      dek:
+        "After NYU’s abrupt cancellation of affinity graduations in February, students quickly mobilized to reverse the university’s decision.",
+      highlight:
+        "These are the first few lines of the story, this is what it would look like if you hover over each card. For example, this is random text....",
+      topics: ["criminal justice", "urban policy", "housing"],
+    },
+    {
     id: "personal-essay",
     title: "You cannot be Asian American without being against ICE",
     outlet: "Washington Square News",
@@ -88,6 +102,35 @@ export const stories: Story[] = [
     highlight:
       "These are the first few lines of the story, this is what it would look like if you hover over each card. For example, this is random text....",
     topics: ["student activism", "politics", "organizing"],
+  },
+  {
+      id: "identity-bookstores",
+      title: "5 identity-based bookstores to explore",
+      outlet: "Washington Square News",
+      role: "Contributing Writer",
+      date: "2024-11-18",
+      url: "https://nyunews.com/culture/iequity/2024/11/18/bookstores/",
+      image: "/images/bookstores.jpg",
+      dek:
+        "Skip the corporate chains and flip through the unique shelves of five bookstores focused on showcasing the stories of marginalized groups.",
+      highlight:
+        "These are the first few lines of the story, this is what it would look like if you hover over each card. For example, this is random text....",
+      topics: ["criminal justice", "urban policy", "housing"],
+    },
+    {
+    id: "trans-bookstores",
+    title:
+      "‘A Space for Everyone I Love’: This Summer Brings the Hudson Valley’s First Black Trans-Owned Bookstore",
+    outlet: "NPR Radio Catskill",
+    role: "Reporter & Producer",
+    date: "2026-04-06",
+    url: "https://wjffradio.org/a-space-for-everyone-i-love-this-summer-brings-the-hudson-valleys-first-black-trans-owned-bookstore/",
+    image: "/images/trans-bookstores.jpeg",
+    dek:
+      "Founder Awa-Moon Barnett envisions her new mobile bookshop as a pathway for increasing literacy and community organizing in the region.",
+    highlight:
+      "These are the first few lines of the story, this is what it would look like if you hover over each card. For example, this is random text....",
+    topics: ["healthcare", "economics", "community"],
   },
     {
     id: "no-justice",
@@ -199,3 +242,10 @@ export const stories: Story[] = [
   },
 
 ];
+
+/*/
+Stories to put on website: 	
+  •	“The fight for affinity graduations.” Washington Square News, 30 Apr. 2026.
+	•	“‘A Space for Everyone I Love’: This Summer Brings the Hudson Valley’s First Black Trans-Owned Bookstore.” Radio Catskill, 30 Apr. 2026.
+	•	“5 identity-based bookstores to explore.” Washington Square News, 18 Nov. 2024.
+*/
