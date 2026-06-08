@@ -177,6 +177,21 @@ export const stories: Story[] = [
       "These are the first few lines of the story, this is what it would look like if you hover over each card. For example, this is random text....",
     topics: ["healthcare", "economics", "community"],
   },
+    {
+    id: "prison-books",
+    title:
+      "How a Local Nonprofit is Bringing Books to Prisons in New York",
+    outlet: "NPR Radio Catskill",
+    role: "Reporter & Producer",
+    date: "2026-08-11",
+    url: "https://wjffradio.org/how-a-local-nonprofit-is-bringing-books-to-prisons-in-new-york/",
+    image: "/images/prison-books.jpg",
+    dek:
+      "The Prison Books Project is partnering with local bookstores in the Hudson Valley to increase access to books in state prisons.",
+    highlight:
+      "These are the first few lines of the story, this is what it would look like if you hover over each card. For example, this is random text....",
+    topics: ["healthcare", "economics", "community"],
+  },
   {
     id: "loved-ones-of-incarcerated-individuals",
     title:
